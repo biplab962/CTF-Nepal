@@ -8,9 +8,12 @@
 }
 .btn-danger{
     float: right;
+    justify-content: space-between;
+    margin-left: 5px;
+    
 }
-.btn-lg{
-    display: flexbox;
+.button-container-center{
+    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -64,3 +67,6 @@ a:link {
 .login-container input[type="submit"]:hover {
     background-color: #45a049;
 }
+.button-container-center {
+    text-align: center;
+  }
